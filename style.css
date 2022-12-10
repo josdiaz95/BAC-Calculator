@@ -1,0 +1,51 @@
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+}
+body{
+    background-color: bisque;
+}
+
+
+input[type=range]::-webkit-slider-runnable-track {
+    background: #e80f0f;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    margin-top: -4px;
+    background: rgba(196, 196, 19, 0.87);
+
+}
+
+#customRange1{
+    width: 800px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 175px;
+
+}
+
+#customRange1{
+    padding-bottom: 5em;
+}
+
+#image{
+    background-image: url(bac-symptoms.png);
+    height: 319px;
+    width: 1000px;
+    margin-right:10em;
+
+}
+#calculations{
+    color: #e80f0f;
+    font-weight: bold;
+}
